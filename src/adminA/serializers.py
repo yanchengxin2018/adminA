@@ -1,8 +1,9 @@
 from rest_framework import serializers
-from all_model import models
+from adminA import models
 
 
-class TestSerializer(serializers.ModelSerializer):
+# AdminA配置文件
+class AdminAConfSerializer(serializers.ModelSerializer):
     class Meta:
-        model = models.UserModel
-        fields = ('id', 'username', 'name',)
+        model = models.AdminAConfModel
+        fields = ('id', 'created_at', 'updated_at', 'code', 'data', 'close',)

@@ -1,3 +1,4 @@
 .idea
-static/adminA/
 __pycache__
+dist
+adminA.egg-info
