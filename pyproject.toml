@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adminA"
+version = "2024.6.29.11"
+authors = [
+  { name="YanChengxin", email="yan.cheng.xin@foxmail.com" },
+]
+description = "为django应用提供快速的管理员页面构建.使用drf及0代码操作提供更快捷的admin页面构建."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
